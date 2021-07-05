@@ -1,0 +1,24 @@
+.header-logo__link img {
+height: 100px;
+}
+
+@media only screen and (min-width: 1367px) {
+    .header-logo__img {
+        max-height: 110px;
+    }
+}
+
+.main-menu__link {
+    color: #ff9a00!important;
+    font-weight: bolder!important;
+}
+.promo-slider__item picture .img--bg {
+    object-fit: fill!important;
+}
+
+@media only screen and (min-width: 992px) {
+
+    .footer-logo__img {
+        max-height: 115px;
+    }
+}
