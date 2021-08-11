@@ -1,7 +1,27 @@
+import FooterComponet from "./Components/FooterComponent";
+import HeaderComponnet from "./Components/HeaderComponent";
+import ApplicationListPage from "./Pages/ApplicationListPage";
+
+
+const WrapperComponent = (props) => {
+  return (
+    <div>
+      <HeaderComponnet />
+      {props.children}
+      <FooterComponet />
+
+    </div>
+  )
+}
+
 function App() {
   return (
-    <div className="container bg-success">
-      <h2>Bootstrap 5 is working.....</h2>
+    <div classNameName="Container">
+      <WrapperComponent>
+      
+            <h2><ApplicationListPage /></h2>
+      
+      </WrapperComponent>
 
       {/* 
       ProjectContainer will contain header and footer
