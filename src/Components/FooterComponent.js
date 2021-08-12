@@ -48,14 +48,7 @@ const FooterComponet = () => {
 							<p>Help Us Change the Lives of Children in World</p><a className="button footer__button button--filled" href="#">Donate</a>
 						</div>
 					</div>
-					<div className="row align-items-baseline">
-						<div className="col-md-6">
-							<p className="footer-copyright">© 2020 Helpo Charity Template by Artureanec</p>
-						</div>
-						<div className="col-md-6">
-							<div className="footer-privacy"><a className="footer-privacy__link" href="#">Privacy Policy</a><span className="footer-privacy__divider">|</span><a className="footer-privacy__link" href="#">Term and Condision</a></div>
-						</div>
-					</div>
+					
 				</div>
 			</footer>
         </div>

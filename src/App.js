@@ -20,7 +20,7 @@ function App() {
     <div className="Container-fluid">
       <WrapperComponent>
       
-            <h2><HomePage/></h2>
+            <h2><ApplicationListPage/></h2>
       
       </WrapperComponent>
 

@@ -41,4 +41,9 @@
         color: #a9a9ab;
         background-color: #20212b;
         padding: 37px 0 !important;
+        margin-top: -50px;
+        
+    }
+    .footer__button {
+        width: 27% !important;
     }
