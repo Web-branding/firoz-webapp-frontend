@@ -1,7 +1,11 @@
 .header-logo__link img {
     height: 100px;
     }
-    
+    @media only screen and (min-width: 992px){
+.header-logo__img {
+    max-height: 110px!important;
+}
+    }
     @media only screen and (min-width: 1367px) {
         .header-logo__img {
             max-height: 110px;
@@ -11,6 +15,13 @@
         color: #5a5855; 
         font-size: small;
 
+    }
+    
+    .search{
+        width: auto;
+        height: 250px;
+        position: relative;
+        top: 40px;
     }
     .main-menu__link {
         color: #ff9a00!important;
@@ -25,4 +36,9 @@
         .footer-logo__img {
             max-height: 115px;
         }
+    }
+    footer.footer {
+        color: #a9a9ab;
+        background-color: #20212b;
+        padding: 37px 0 !important;
     }

@@ -6,9 +6,9 @@ const ApplicationListPage = () => {
             
              <div >      
                 <div className="row m-3 d-flex justify-content-center">
-                    <h6 className="h3 mb-0 text-gray-800">Add New Applicant</h6>
+                    <h6 className="h3 mb-0 text-gray-800" style={{textAlign:"center"}}>Add New Applicant</h6>
                 </div>
-                <div className="container mb-3 py-2" >
+                <div className="container mb-3 py-2">
                     <div className="row justify-content-center">
                         <div className="col-md-7">
                             <form className="user">
