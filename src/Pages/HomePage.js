@@ -160,7 +160,6 @@ const HomePage = () => {
         {/* <!-- promo pannel start--> */}
         <div className="promo-pannel">
           <a className="anchor promo-pannel__anchor" href="#about">
-            {" "}
             <span>Scroll Down</span>
           </a>
 

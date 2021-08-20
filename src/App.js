@@ -14,14 +14,12 @@ const Home = () => {
 
 const WrapperComponent = (props) => {
   return (
-    <div className="bg-success">
+    <div className="">
       <header className="bg-danger w-100" style={{ minHeight: 150 }}>
         <HeaderComponnet />
       </header>
 
-      <main style={{}} className="my-5">
-        {props.children}
-      </main>
+      <main className="my-5">{props.children}</main>
 
       <footer className="bg-danger w-100" style={{ minHeight: 300 }}>
         <FooterComponet />
@@ -43,15 +41,19 @@ function App() {
             <Route exact path="/">
               <HomePage />
             </Route>
+
             <Route path="/request">
               <ApplicationListPage />
             </Route>
+
             <Route path="/search">
               <ApplicationSearchPage />
             </Route>
+
             <Route path="/aboutus">
               <AboutUsPage />
             </Route>
+
             <Route path="/contactus">
               <ContactUsPage />
             </Route>
