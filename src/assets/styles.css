@@ -16,7 +16,9 @@
         font-size: small;
 
     }
-    
+    .bg{
+        transform: translate3d(0px, 0px, 0px)!important;
+    }
     .search{
         width: auto;
         height: 250px;

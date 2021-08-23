@@ -93,6 +93,10 @@ const HelpsCause = () => (
       class="causes__bg"
       src={require("../img/causes_img.png").default}
       alt="img"
+	  style= {{position:"absolute",
+		bottom: 0,
+		right: 0,
+		pointerEvents: "none"}}
     />
     <div class="container">
       <div class="row align-items-end">
@@ -162,14 +166,16 @@ const HelpsCause = () => (
         </div>
       </div>
     </div>
+	<div class="container">
     <div class="causes-holder offset-margin">
       <div class="causes-holder__wrapper">
-        <div class="causes-slider offset-margin">
-          <div class="causes-slider__item">
+        <div class="causes-slider offset-margin bg" style={{opacity: 1,width: 1227,display:"flex"}}>
+			
+          <div class="causes-slider__item"  style={{width: 379 }}>
             <div class="causes-item causes-item--primary">
               <div class="causes-item__body">
                 <div class="causes-item__top">
-                  <h6 class="causes-item__title">
+                  <h6 class="causes-item__title" style={{fontSize:20, marginBottom:20}}>
                     <a href="cause-details.html">
                       Working Together for Resolution in Kerala
                     </a>
@@ -216,11 +222,11 @@ const HelpsCause = () => (
             </div>
           </div>
 
-          <div class="causes-slider__item">
+          <div class="causes-slider__item mx-2" style={{width: 379 }}>
             <div class="causes-item causes-item--primary">
               <div class="causes-item__body">
                 <div class="causes-item__top">
-                  <h6 class="causes-item__title">
+                  <h6 class="causes-item__title" style={{fontSize:20, marginBottom:20}}>
                     <a href="cause-details.html">We Build and Create</a>
                   </h6>
                   <p>
@@ -265,11 +271,11 @@ const HelpsCause = () => (
               </a>
             </div>
           </div>
-          <div class="causes-slider__item">
+          <div class="causes-slider__item" style={{width: 379 }}>
             <div class="causes-item causes-item--primary">
               <div class="causes-item__body">
                 <div class="causes-item__top">
-                  <h6 class="causes-item__title">
+                  <h6 class="causes-item__title" style={{fontSize:20, marginBottom:20}}>
                     <a href="cause-details.html">Child Sponsership</a>
                   </h6>
                   <p>
@@ -317,6 +323,7 @@ const HelpsCause = () => (
         </div>
       </div>
     </div>
+	</div>
   </section>
 );
 
@@ -575,6 +582,7 @@ const Projects = () => (
   </section>
 );
 
+
 const Donors = () => (
   <section class="section donors ">
     <div class="container">
@@ -592,9 +600,9 @@ const Donors = () => (
         <div class="col-12">
           {/* <!-- donors slider start--> */}
           <div class="slider-holder">
-            <div class="donors-slider donors-slider--style-1">
+            <div class="donors-slider donors-slider--style-1" style={{display:"flex"}}>
               <div class="donors-slider__item">
-                <div class="donors-slider__img">
+                <div class="donors-slider__img" style= {{width: 293 }}>
                   <img
                     src={require("../img/donor_1.png").default}
                     alt="donor"
@@ -602,7 +610,7 @@ const Donors = () => (
                 </div>
               </div>
               <div class="donors-slider__item">
-                <div class="donors-slider__img">
+                <div class="donors-slider__img px-2" style= {{width: 293 }}>
                   <img
                     src={require("../img/donor_2.png").default}
                     alt="donor"
@@ -610,7 +618,7 @@ const Donors = () => (
                 </div>
               </div>
               <div class="donors-slider__item">
-                <div class="donors-slider__img">
+                <div class="donors-slider__img" style= {{width: 293 }}>
                   <img
                     src={require("../img/donor_3.png").default}
                     alt="donor"
@@ -618,7 +626,7 @@ const Donors = () => (
                 </div>
               </div>
               <div class="donors-slider__item">
-                <div class="donors-slider__img">
+                <div class="donors-slider__img " style= {{width: 293 }}>
                   <img
                     src={require("../img/donor_4.png").default}
                     alt="donor"
