@@ -50,7 +50,10 @@ const FooterComponet = () => {
 					</div>
 					<div class="row">
 					<div class="col-md-12 d-flex justify-content-center">
-						<p class="footer-copyright">© 2021 Firoz kunnamparambil Foundation Charity Template by Artureanec. Designed By Web Branding Info Solutions</p>
+						<p class="footer-copyright" style={{color:"white"}}>© 2021 Firoz kunnamparambil Foundation Charity Template by Artureanec. Designed By
+	
+					<a href="https://www.thewebbranding.com/" style={{textDecoration: "none"} }>   Web Branding Info Solutions</a>
+						 </p>
 					</div>
 				</div>
 				</div>

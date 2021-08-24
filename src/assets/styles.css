@@ -19,6 +19,9 @@
     .bg{
         transform: translate3d(0px, 0px, 0px)!important;
     }
+    body{
+        display: flow-root!important;
+    }
     .search{
         width: auto;
         height: 250px;
@@ -49,3 +52,14 @@
     .footer__button {
         width: 27% !important;
     }
+    .donors::before {
+        content: "";
+        display: block;
+        height: 100% !important;
+        width: 100% !important;
+        background-color: #f9f7f6;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+   

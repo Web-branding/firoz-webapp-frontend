@@ -346,8 +346,11 @@ const Projects = () => (
         </div>
       </div>
     </div>
-    <div class="row no-gutters projects-masonry">
-      <div class="col-lg-6 col-xl-4 projects-masonry__item projects-masonry__item--height-1 projects-masonry__item--vertical">
+    <div class="row no-gutters projects-masonry" style={{position: "relative",
+    height: 1800}}>
+      <div class="col-lg-6 col-xl-4 projects-masonry__item projects-masonry__item--height-1 projects-masonry__item--vertical" style={{position: "absolute",
+    left: "0%",
+    top: 0 }}>
         <div class="projects-masonry__img">
           <img
             class="img--bg"
@@ -388,7 +391,12 @@ const Projects = () => (
           </div>
         </div>
       </div>
-      <div class="col-lg-6 col-xl-8 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--horizontal">
+      <div class="col-lg-6 col-xl-8 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--horizontal"style={{
+        position: "absolute",
+        left: "33.3326%",
+        top: 0
+    
+      }}>
         <div class="projects-masonry__img">
           <img
             class="img--bg"
@@ -431,7 +439,10 @@ const Projects = () => (
           </div>
         </div>
       </div>
-      <div class="col-lg-6 col-xl-8 projects-masonry__item projects-masonry__item--height-1 projects-masonry__item--primary">
+      <div class="col-lg-6 col-xl-8 projects-masonry__item projects-masonry__item--height-1 projects-masonry__item--primary" style={{position: "absolute",
+    
+    left: "33.3326%",
+    top: 450}}>
         <div class="projects-masonry__img">
           <img
             class="img--bg"
@@ -466,7 +477,11 @@ const Projects = () => (
           </div>
         </div>
       </div>
-      <div class="col-lg-6 col-xl-4 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--primary">
+      <div class="col-lg-6 col-xl-4 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--primary" style={{position:"absolute",
+  
+    left: "0%",
+    top: 900
+    }}>
         <div class="projects-masonry__img">
           <img
             class="img--bg"
@@ -501,7 +516,9 @@ const Projects = () => (
           </div>
         </div>
       </div>
-      <div class="col-lg-6 col-xl-8 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--horizontal">
+      <div class="col-lg-6 col-xl-8 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--horizontal" style={{position: "absolute",
+    left: "0%",
+    top: 1350}}>
         <div class="projects-masonry__img">
           <img
             class="img--bg"
@@ -541,7 +558,9 @@ const Projects = () => (
           </div>
         </div>
       </div>
-      <div class="col-lg-6 col-xl-4 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--primary">
+      <div class="col-lg-6 col-xl-4 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--primary" style={{position: "absolute",
+    left: "66.6653%",
+    top: 1350}}>
         <div class="projects-masonry__img">
           <img
             class="img--bg"
@@ -584,7 +603,7 @@ const Projects = () => (
 
 
 const Donors = () => (
-  <section class="section donors ">
+  <section class="section donors p-5">
     <div class="container">
       <div class="row margin-bottom">
         <div class="col-12">
