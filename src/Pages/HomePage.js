@@ -1,9 +1,17 @@
-import React, { useState } from "react";
+import React, { useState} from "react";
 
 import slide from "../img/promo_1.jpg";
 import ImageSlider from "../Components/ImageSlider";
 
 const AboutUs = () => {
+//   const[state, setState]=useState([[]])
+//   useEffect(() => {
+//     axios.get('https://firoz.thewebbranding.com/api/slides').then((response)=>{
+//         console.log(response.data)
+//         setState(response.data)
+//         })
+    
+// }, [])
   return (
     <div class="container my-5">
       <div class="row align-items-center">

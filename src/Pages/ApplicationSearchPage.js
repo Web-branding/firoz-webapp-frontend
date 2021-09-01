@@ -1,6 +1,17 @@
-import React from "react" 
+import React, { useState, useEffect } from "react";
+import axios from 'axios'
 
 const ApplicationSearchPage = () => {
+    const[state, setState]=useState([])
+    
+    useEffect(() => {
+        axios.get('https://firoz.thewebbranding.com/api/search/ID-00002').then((response)=>{
+            console.log(response.data)
+            setState(response.data)
+            })
+        
+    }, [])
+    
     return(
         <div className="search">
             
@@ -12,7 +23,8 @@ const ApplicationSearchPage = () => {
                         </div>
                         <div className="col-auto  mb-3">
                             {/* <span className="input-group-text btn btn-primary bg-white ps-2" id="basic-addon2">Search</span> */}
-                            <button type="button" class="btn btn-light btn-outline-success">Search</button>
+                            <button type="button" class="btn btn-light btn-outline-success"
+                            >Search</button>
                         </div>
                     </section>
         
