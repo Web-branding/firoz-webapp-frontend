@@ -22,7 +22,7 @@ const AboutUs = () => {
               <span>Help is Our</span> <span>Main Goal</span>
             </h2>
           </div>
-          <p>
+          <p class="text-justify">
             <strong>
               According to the UNCRC a child means every human being below the
               age of eighteen years unless, under the law applicable to the
@@ -30,14 +30,14 @@ const AboutUs = () => {
               to children define children in different age limits.
             </strong>
           </p>
-          <p>
+          <p class="text-justify">
             According to Article 21(a) of the Indian Constitution all children
             between the ages of six to fourteen should be provided with free and
             compulsory education. The child labour (Prohibition and Regulation)
             Act, 1986 defines a child as a person who has not completed fourteen
             years of age.
           </p>
-          <p>
+          <p class="text-justify">
             Most of the cases were admitted to the institution by their own
             mothers owing to poverty, unrestrained habits of the father and
             strained relationship of the child with step parents.
@@ -65,7 +65,7 @@ const AboutUs = () => {
             <h4 class="info-box__title text-orange">
               We are Awesome Volounteer Team
             </h4>
-            <p class="text-orange">
+            <p class="text-orange" class="text-justify">
               Gray eel-catfish longnose whiptail catfish smalleye squaretail
               queen danio unicorn fish shortnose greeneye fusilier fish silver
               carp nibbler sharksucker tench lookdown catfish
@@ -107,14 +107,15 @@ const HelpsCause = () => (
 		pointerEvents: "none"}}
     />
     <div class="container">
+   
       <div class="row align-items-end">
         <div class="col-xl-5">
-          <div class="heading heading--primary">
+          <div class="heading heading--primary  heading heading--center">
             <span class="heading__pre-title">What we Do</span>
             <h2 class="heading__title">
               <span>Help</span> <span>Causes</span>
             </h2>
-            <p>
+            <p class="text-justify">
               Assessment, Counseling and Remedial centre has the most precise
               and scientific collections of standardized psychological and
               psycho- educational assessments. We have test kits suitable to
@@ -188,7 +189,7 @@ const HelpsCause = () => (
                       Working Together for Resolution in Kerala
                     </a>
                   </h6>
-                  <p>
+                  <p class="text-justify">
                     We supports underprivileged women and children by providing
                     holistic solutions to improve their quality of life .
                   </p>
@@ -237,7 +238,7 @@ const HelpsCause = () => (
                   <h6 class="causes-item__title" style={{fontSize:20, marginBottom:20}}>
                     <a href="cause-details.html">We Build and Create</a>
                   </h6>
-                  <p>
+                  <p class="text-justify">
                     Compassion survival focuses on promoting development and
                     survival of the most vulnerable bables,While also providing
                     educaton and support
@@ -286,7 +287,7 @@ const HelpsCause = () => (
                   <h6 class="causes-item__title" style={{fontSize:20, marginBottom:20}}>
                     <a href="cause-details.html">Child Sponsership</a>
                   </h6>
-                  <p>
+                  <p class="text-justify">
                     In a world where hundreds of millions of children live in
                     extreme poverty, connectig one child with one sponsor is the
                     most strategic way to end--child poverty
@@ -345,7 +346,7 @@ const Projects = () => (
             <h2 class="heading__title">
               <span>Firoz kunnamparambil Foundation</span> <span>Projects</span>
             </h2>
-            <p class="no-margin-bottom">
+            <p class="no-margin-bottom text-justify" >
               This foundation aims to redeﬁne what is possible for children from
               low-income communities to achieve through its network of
               high-performing public-private partnership schools.
@@ -356,7 +357,7 @@ const Projects = () => (
     </div>
     <div class="row no-gutters projects-masonry" style={{position: "relative",
     height: 1800}}>
-      <div class="col-lg-6 col-xl-4 projects-masonry__item projects-masonry__item--height-1 projects-masonry__item--vertical" style={{position: "absolute",
+      <div class="col-lg-6 col-xl-4 projects-masonry__item projects-masonry__item--height-1 projects-masonry__item--vertical slide-1" style={{position: "absolute",
     left: "0%",
     top: 0 }}>
         <div class="projects-masonry__img">
@@ -1017,7 +1018,7 @@ const HomePage = () => {
                 <div class="col-12">
                   <div class="heading heading--center">
                     <span class="heading__pre-title">Services</span>
-                    <h2 class="heading__title">
+                    <h2 class="heading__title heading heading--center">
                       <span>What we do</span> <span>for all people</span>
                     </h2>
                   </div>

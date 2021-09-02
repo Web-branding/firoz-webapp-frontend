@@ -34,9 +34,9 @@ const AboutUsPage = () => {
 								<div class="heading heading--primary"><span class="heading__pre-title">About Us</span>
 									<h2 class="heading__title"><span>Help is Our</span> <span>Main Goal</span></h2>
 								</div>
-								<p><strong>Firoz kunnamparambil foundation as a vibrant charitable group working towards Economic , Social and Educational Development and Upliftment of people in Karnataka and other parts of the country is registered under Kerala </strong></p>
-								<p>We are driven by selfless devotion and zeal…which enables us to work under any conditions and innumerable constraints. Today, we have our registered office at Kochi</p>
-								<p>profitable-oriented secular organization working in the field of socio-economic, educational development and upliftment of down-trodden people of Kochi and other part of the country, with this headquarters in Kerala for over 10 years.</p>
+								<p class="text-justify"><strong>Firoz kunnamparambil foundation as a vibrant charitable group working towards Economic , Social and Educational Development and Upliftment of people in Karnataka and other parts of the country is registered under Kerala </strong></p>
+								<p class="text-justify">We are driven by selfless devotion and zeal…which enables us to work under any conditions and innumerable constraints. Today, we have our registered office at Kochi</p>
+								<p class="text-justify">profitable-oriented secular organization working in the field of socio-economic, educational development and upliftment of down-trodden people of Kochi and other part of the country, with this headquarters in Kerala for over 10 years.</p>
 							</div>
 						</div>
 					</div>
@@ -48,8 +48,8 @@ const AboutUsPage = () => {
 						<div class="row align-items-center">
 							<div class="col-lg-6">
 								<h4 class="about-us__subtitle">We work around the globe to save lives, defeat poverty and achieve social justice.</h4>
-								<p>Firoz kunnamprambil started as early as 1999 under the chief eminent of Kerala with the vision purely to address the problems faced by the down-trodden, particularly women and children, who are totally neglected by the society.</p>
-								<p>Our commitment is to entitle children to become a catalyst in transforming lives by developing life skills to build better future with focus and a determined goal.
+								<p class="text-justify">Firoz kunnamprambil started as early as 1999 under the chief eminent of Kerala with the vision purely to address the problems faced by the down-trodden, particularly women and children, who are totally neglected by the society.</p>
+								<p class="text-justify">Our commitment is to entitle children to become a catalyst in transforming lives by developing life skills to build better future with focus and a determined goal.
 									This helps to build their self-confidence and to understand their abilities. </p>
 							</div>
 							<div class="col-lg-6 col-xl-5 offset-xl-1">
@@ -286,64 +286,7 @@ const AboutUsPage = () => {
 					</div>
 				</section>
         {/* <!-- team end--> */}
-        {/* <!-- donors start--> */}
-        <section class="section donors p-5">
-    <div class="container">
-      <div class="row margin-bottom">
-        <div class="col-12">
-          <div class="heading heading--primary heading--center">
-            <span class="heading__pre-title">Donors</span>
-            <h2 class="heading__title no-margin-bottom">
-              <span>Who Help</span> <span>Us</span>
-            </h2>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          {/* <!-- donors slider start--> */}
-          <div class="slider-holder">
-            <div class="donors-slider donors-slider--style-1" style={{display:"flex"}}>
-              <div class="donors-slider__item">
-                <div class="donors-slider__img" style= {{width: 293 }}>
-                  <img
-                    src={require("../img/donor_1.png").default}
-                    alt="donor"
-                  />
-                </div>
-              </div>
-              <div class="donors-slider__item">
-                <div class="donors-slider__img px-2" style= {{width: 293 }}>
-                  <img
-                    src={require("../img/donor_2.png").default}
-                    alt="donor"
-                  />
-                </div>
-              </div>
-              <div class="donors-slider__item">
-                <div class="donors-slider__img" style= {{width: 293 }}>
-                  <img
-                    src={require("../img/donor_3.png").default}
-                    alt="donor"
-                  />
-                </div>
-              </div>
-              <div class="donors-slider__item">
-                <div class="donors-slider__img " style= {{width: 293 }}>
-                  <img
-                    src={require("../img/donor_4.png").default}
-                    alt="donor"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* <!-- donors slider end--> */}
-        </div>
-      </div>
-    </div>
-  </section>
-        {/* <!-- donors end--> */}
+        
      
     </div>
   );

@@ -12,13 +12,7 @@ const ApplicationSearchPage = () => {
         
     }, [])
     const submit=(e)=>{
-        // e.preventDefault();
-        // const newdata={...state}
-        // newdata[e.target.id]=e.target.value
-        // setState(newdata)
-        // console.log(newdata)
-        // // console.log(state)
-        // // setState(response.data)
+        
     }
           
     return(

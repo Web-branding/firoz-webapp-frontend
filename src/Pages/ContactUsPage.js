@@ -91,7 +91,7 @@ const ContactUsPage = () => {
 							<div class="row justify-content-end">
 								<div class="col-xl-6">
 									<form class="form message-form" action="javascript:void(0);">
-										<h6 class="form__title">Send Message</h6><span class="form__text">* The following info is required</span>
+										<h6 class="form__title heading heading--center">Send Message</h6><span class="form__text heading heading--center">* The following info is required</span>
 										<div class="row">
 											<div class="col-lg-6">
 												<input class="form__field" type="text" name="first-name" placeholder="First Name *" required="required"/>
@@ -108,7 +108,7 @@ const ContactUsPage = () => {
 											<div class="col-12">
 												<textarea class="form__message form__field" name="message" placeholder="Message"></textarea>
 											</div>
-											<div class="col-12">
+											<div class="col-12 heading heading--center">
 												<button class="form__submit" type="submit">Send Message</button>
 											</div>
 										</div>
