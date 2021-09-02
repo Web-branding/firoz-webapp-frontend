@@ -15,11 +15,11 @@ const Home = () => {
 const WrapperComponent = (props) => {
   return (
     <div className="">
-      <header className="w-100" style={{ minHeight: 70 }}>
+      <header className="w-100" style={{ minHeight: 10 }}>
         <HeaderComponnet />
       </header>
 
-      <main className="my-5">{props.children}</main>
+      <main className="mb-5">{props.children}</main>
 
       <footer className="w-100" style={{ minHeight: 300 }}>
         <FooterComponet />

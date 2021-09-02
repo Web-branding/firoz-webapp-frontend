@@ -16,12 +16,20 @@
         font-size: small;
 
     }
+    @media only screen and (max-width: 767px) {
+        banner-item {
+            text-align: center !important;
+        }
+    }
+
     .bg{
         transform: translate3d(0px, 0px, 0px)!important;
     }
     body{
         display: flow-root!important;
+        
     }
+    
     .search{
         width: auto;
         height: 250px;
@@ -48,6 +56,9 @@
         padding: 37px 0 !important;
         margin-top: -50px;
         
+    }
+    .about-item{
+        margin-top: 20px;
     }
     .footer__button {
         width: 27% !important;

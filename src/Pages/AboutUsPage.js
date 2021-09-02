@@ -3,7 +3,7 @@ import React from "react";
 const AboutUsPage = () => {
   return (
     <div>
-      <main class="main">
+     
       <section class="promo-primary">
 					<picture>
 						<source srcset={require("../img/about.jpg").default} media="(min-width: 992px)"/><img class="img--bg" src={require("../img/about.jpg").default} alt="img"/>
@@ -27,7 +27,7 @@ const AboutUsPage = () => {
 						<div class="row align-items-center">
 							<div class="col-lg-6 col-xl-5">
 								<div class="img-box"><img class="img--layout" src={require("../img/about_layout-reverse.png").default} alt="img"/>
-									<div class="img-box__img"><img class="img--bg" src={require("../img/about_2.png").default} alt="img"/></div>
+									<div class="img-box__img"><img class="img--bg" src={require("../img/about_img.jpg").default} alt="img"/></div>
 								</div>
 							</div>
 							<div class="col-lg-6 col-xl-6 offset-xl-1">
@@ -344,7 +344,7 @@ const AboutUsPage = () => {
     </div>
   </section>
         {/* <!-- donors end--> */}
-      </main>
+     
     </div>
   );
 };

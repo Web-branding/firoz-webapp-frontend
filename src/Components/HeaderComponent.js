@@ -11,10 +11,10 @@ const HeaderComponet = () => {
         <div className="container-fluid">
           <div className="row no-gutters justify-content-between">
             <div className="col-auto d-flex align-items-center">
-              <div className="dropdown-trigger d-none d-sm-block">
+              {/* <div className="dropdown-trigger d-none d-sm-block">
                 <div className="dropdown-trigger__item"></div>
-              </div>
-              <div className="header-logo">
+              </div> */}
+              <div className="header-logo pl-5">
                 <a className="header-logo__link" href="index.html">
                   <img
                     className="header-logo__img logo--light"
