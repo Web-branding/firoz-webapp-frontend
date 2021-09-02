@@ -122,7 +122,7 @@ const CommonSection = (props) => {
         <input
           name="place"
           type="text"
-          className="form-control "
+          className="form-control"
           id="exampleInputEmail"
           placeholder="Place"
         />

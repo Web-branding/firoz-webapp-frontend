@@ -1,56 +1,42 @@
 import React, { useState, useEffect } from "react";
 import { Carousel } from "react-bootstrap";
-import axios from 'axios';
+import axios from "axios";
+
+const BaseUrl = "https://firoz.thewebbranding.com";
 
 const ImageSlider = () => {
-  const [sliderData, setSLiderData] = useState([]);
-  const [sliderDatas, setSLiderDatas] = useState([]);
+  const [sliderDatas, setSliderDatas] = useState([]);
 
   useEffect(() => {
-    
-      axios.get('https://firoz.thewebbranding.com/api/slides').then((response)=>{
-          console.log(response.data.slides[0])
-          setSLiderDatas(response.data.slides[0])
-          })
-    setSLiderData([
-      {
-        caption: "",
-        description: "",
-        img: require("../img/promo_1.jpg").default,
-        
-      },
-      {
-        caption: "",
-        description: "",
-        // img:"{sliderDatas.image[0]}",
-        // img:require(" {`../img/${sliderDatas.image}.jpg`}").default,
-        img: require("../img/promo_1.jpg").default,
-      },
-      {
-        caption: "",
-        description: "",
-        img: require("../img/promo_1.jpg").default,
-      },
-    ]);
+    getSliderApi();
   }, []);
+
+  const getSliderApi = () => {
+    axios
+      .get(BaseUrl + "/api/slides")
+      .then((response) => {
+        setSliderDatas(response.data.data);
+      })
+      .catch((err) => {
+        console.error(" Error in SLider APi ", err);
+        setSliderDatas([]);
+      });
+  };
 
   return (
     <Carousel>
-      {sliderData.length
-        ? sliderData.map((item, index) => {
+      {sliderDatas.length
+        ? sliderDatas.map((item, index) => {
             return (
               <Carousel.Item key={index}>
                 <img
                   className="d-block w-100"
-                  src={item.img}
+                  src={item.path}
                   alt="First slide"
                 />
                 <Carousel.Caption>
                   <h3>{sliderDatas.title}</h3>
-                  <p>
-                  {sliderDatas.description}
-                    {/* Nulla vitae elit libero, a pharetra augue mollis interdum. */}
-                  </p>
+                  <p>{sliderDatas.description}</p>
                 </Carousel.Caption>
               </Carousel.Item>
             );
