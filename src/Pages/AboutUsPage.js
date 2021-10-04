@@ -65,8 +65,8 @@ const AboutUsPage = () => {
 						<div class="row">
 							<div class="col-12">
 								<div class="video-frame">
-                  <img class="img--bg" src={require("../img/video_frame.png").default} alt="frame"/>
-                  <a class="video-trigger video-frame__trigger" href="https://www.youtube.com/watch?v=_sI_Ps7JSEk">
+                  <img class="img--bg" src={require("../img/video.png").default} alt="frame"/>
+                  <a class="video-trigger video-frame__trigger" href="https://youtu.be/KIHBlUbo2Z0">
                     <span class="video-frame__icon"><i class="fa fa-play" aria-hidden="true"></i></span>
                     <span class="video-frame__text">Watch our video</span></a><img class="video-frame__img-layout" 
                      src={require("../img/video_frame-layout.png").default} alt="layout"/></div> 
@@ -132,9 +132,9 @@ const AboutUsPage = () => {
 								</div>
 							</div>
 						</div>
-						<div class="row margin-bottom">
-							<div class="col-sm-6 col-lg-4 col-xl-3">
-								{/* <!-- iteam start--> */}
+						<div class="row margin-bottom justify-content-center">
+							{/* <div class="col-sm-6 col-lg-4 col-xl-3">
+							
 								<div class="team-item team-item--rounded">
 									<ul class="team-item__socials">
 										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -149,10 +149,10 @@ const AboutUsPage = () => {
 										<div class="team-item__position">Ceo/Founder</div>
 									</div>
 								</div>
-								{/* <!-- iteam end--> */}
-							</div>
-							<div class="col-sm-6 col-lg-4 col-xl-3">
-								{/* <!-- iteam start--> */}
+								
+							</div> */}
+							{/* <div class="col-sm-6 col-lg-4 col-xl-3">
+							
 								<div class="team-item team-item--rounded">
 									<ul class="team-item__socials">
 										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -167,10 +167,10 @@ const AboutUsPage = () => {
 										<div class="team-item__position">Manager</div>
 									</div>
 								</div>
-								{/* <!-- iteam end--> */}
-							</div>
-							<div class="col-sm-6 col-lg-4 col-xl-3">
-								{/* <!-- iteam start--> */}
+							
+							</div> */}
+							{/* <div class="col-sm-6 col-lg-4 col-xl-3">
+								
 								<div class="team-item team-item--rounded">
 									<ul class="team-item__socials">
 										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -185,8 +185,8 @@ const AboutUsPage = () => {
 										<div class="team-item__position">Leader</div>
 									</div>
 								</div>
-								{/* <!-- iteam end--> */}
-							</div>
+							
+							</div> */}
 							<div class="col-sm-6 col-lg-4 col-xl-3">
 								{/* <!-- iteam start--> */}
 								<div class="team-item team-item--rounded">
@@ -196,7 +196,7 @@ const AboutUsPage = () => {
 										<li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
 									</ul>
 									<div class="team-item__img-holder"><img class="img--layout" src={require("../img/team_4.png").default} alt="layout"/>
-										<div class="team-item__img"><img class="img--bg" src={require("../img/team_4.jpg").default} alt="teammate"/></div>
+										<div class="team-item__img"><img class="img--bg" src={require("../img/firozfounder.jpg").default} alt="teammate"/></div>
 									</div>
 									<div class="team-item__description">
 										<div class="team-item__name">Firoz Kunnamparambil</div>
@@ -205,8 +205,8 @@ const AboutUsPage = () => {
 								</div>
 								{/* <!-- iteam end--> */}
 							</div>
-							<div class="col-sm-6 col-lg-4 col-xl-3">
-								{/* <!-- iteam start--> */}
+							{/* <div class="col-sm-6 col-lg-4 col-xl-3">
+						
 								<div class="team-item team-item--rounded">
 									<ul class="team-item__socials">
 										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -221,10 +221,10 @@ const AboutUsPage = () => {
 										<div class="team-item__position">Volunteer</div>
 									</div>
 								</div>
-								{/* <!-- iteam end--> */}
-							</div>
-							<div class="col-sm-6 col-lg-4 col-xl-3">
-								{/* <!-- iteam start--> */}
+							
+							</div> */}
+							{/* <div class="col-sm-6 col-lg-4 col-xl-3">
+							
 								<div class="team-item team-item--rounded">
 									<ul class="team-item__socials">
 										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -239,10 +239,10 @@ const AboutUsPage = () => {
 										<div class="team-item__position">Volunteer</div>
 									</div>
 								</div>
-								{/* <!-- iteam end--> */}
-							</div>
-							<div class="col-sm-6 col-lg-4 col-xl-3">
-								{/* <!-- iteam start--> */}
+							
+							</div> */}
+							{/* <div class="col-sm-6 col-lg-4 col-xl-3">
+						
 								<div class="team-item team-item--rounded">
 									<ul class="team-item__socials">
 										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -257,10 +257,10 @@ const AboutUsPage = () => {
 										<div class="team-item__position">CEO</div>
 									</div>
 								</div>
-								{/* <!-- iteam end--> */}
-							</div>
-							<div class="col-sm-6 col-lg-4 col-xl-3">
-								{/* <!-- iteam start--> */}
+							
+							</div> */}
+							{/* <div class="col-sm-6 col-lg-4 col-xl-3">
+							
 								<div class="team-item team-item--rounded">
 									<ul class="team-item__socials">
 										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -275,8 +275,8 @@ const AboutUsPage = () => {
 										<div class="team-item__position">Volunteer</div>
 									</div>
 								</div>
-								{/* <!-- iteam end--> */}
-							</div>
+							
+							</div> */}
 						</div>
 						<div class="row">
 							<div class="col-12 text-center">
