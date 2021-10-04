@@ -2,7 +2,7 @@ import React from "react";
 const Marriage = () => {
   return (
     <div>
-      <div className="clone d-none">
+      <div className="clone">
         <div className="remove control-group lst input-group mt-1">
           <input type="file" name="file[]" className="myfrm form-control" />
           <div className="input-group-btn">
@@ -220,13 +220,13 @@ const ApplicationListPage = () => {
           <div className="col-md-7">
             <form className="user">
               <CommonSection>
-                <div className="my-5">
+                <div className="my-5 mx-5">
                   <SelectInputSection
                     applicationTytpe={applicationTytpe}
                     setApplicationType={setApplicationType}
                   />
 
-                  <div className="my-5">
+                  <div className="my-5 ">
                     {applicationTytpe === "marriage" ? (
                       <Marriage />
                     ) : applicationTytpe === "housing" ? (

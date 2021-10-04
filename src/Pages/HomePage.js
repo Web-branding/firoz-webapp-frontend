@@ -1,17 +1,17 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
 
 import slide from "../img/promo_1.jpg";
 import ImageSlider from "../Components/ImageSlider";
 
 const AboutUs = () => {
-//   const[state, setState]=useState([[]])
-//   useEffect(() => {
-//     axios.get('https://firoz.thewebbranding.com/api/slides').then((response)=>{
-//         console.log(response.data)
-//         setState(response.data)
-//         })
-    
-// }, [])
+  //   const[state, setState]=useState([[]])
+  //   useEffect(() => {
+  //     axios.get('https://firoz.thewebbranding.com/api/slides').then((response)=>{
+  //         console.log(response.data)
+  //         setState(response.data)
+  //         })
+
+  // }, [])
   return (
     <div class="container my-5">
       <div class="row align-items-center">
@@ -101,13 +101,14 @@ const HelpsCause = () => (
       class="causes__bg"
       src={require("../img/causes_img.png").default}
       alt="img"
-	  style= {{position:"absolute",
-		bottom: 0,
-		right: 0,
-		pointerEvents: "none"}}
+      style={{
+        position: "absolute",
+        bottom: 0,
+        right: 0,
+        pointerEvents: "none",
+      }}
     />
     <div class="container">
-   
       <div class="row align-items-end">
         <div class="col-xl-5">
           <div class="heading heading--primary  heading heading--center">
@@ -175,164 +176,176 @@ const HelpsCause = () => (
         </div>
       </div>
     </div>
-	<div class="container">
-    <div class="causes-holder offset-margin">
-      <div class="causes-holder__wrapper">
-        <div class="causes-slider offset-margin bg" style={{opacity: 1,width: 1227,display:"flex"}}>
-			
-          <div class="causes-slider__item"  style={{width: 379 }}>
-            <div class="causes-item causes-item--primary">
-              <div class="causes-item__body">
-                <div class="causes-item__top">
-                  <h6 class="causes-item__title" style={{fontSize:20, marginBottom:20}}>
-                    <a href="cause-details.html">
-                      Working Together for Resolution in Kerala
-                    </a>
-                  </h6>
-                  <p class="text-justify">
-                    We supports underprivileged women and children by providing
-                    holistic solutions to improve their quality of life .
-                  </p>
-                </div>
-                <div class="causes-item__img">
-                  <div
-                    class="causes-item__badge"
-                    style={{ backgroundColor: "#49C2DF" }}
-                  >
-                    Water Delivery
+    <div class="container">
+      <div class="causes-holder offset-margin">
+        <div class="causes-holder__wrapper">
+          <div
+            class="causes-slider offset-margin bg"
+            style={{ opacity: 1, width: 1227, display: "flex" }}
+          >
+            <div class="causes-slider__item" style={{ width: 379 }}>
+              <div class="causes-item causes-item--primary">
+                <div class="causes-item__body">
+                  <div class="causes-item__top">
+                    <h6
+                      class="causes-item__title"
+                      style={{ fontSize: 20, marginBottom: 20 }}
+                    >
+                      <a href="cause-details.html">
+                        Working Together for Resolution in Kerala
+                      </a>
+                    </h6>
+                    <p>
+                      We supports underprivileged women and children by
+                      providing holistic solutions to improve their quality of
+                      life .
+                    </p>
                   </div>
-                  <img
-                    class="img--bg"
-                    src={require("../img/causes_1.jpg").default}
-                    alt="img"
-                  />
-                </div>
-                <div class="causes-item__lower">
-                  <div class="progress-bar">
-                    <div class="progress-bar__inner" style={{ width: "78%" }}>
-                      <div class="progress-bar__value">78%</div>
+                  <div class="causes-item__img">
+                    <div
+                      class="causes-item__badge"
+                      style={{ backgroundColor: "#49C2DF" }}
+                    >
+                      Water Delivery
+                    </div>
+                    <img
+                      class="img--bg"
+                      src={require("../img/causes_1.jpg").default}
+                      alt="img"
+                    />
+                  </div>
+                  <div class="causes-item__lower">
+                    <div class="progress-bar">
+                      <div class="progress-bar__inner" style={{ width: "78%" }}>
+                        <div class="progress-bar__value">78%</div>
+                      </div>
+                    </div>
+                    <div class="causes-item__details-holder">
+                      <div class="causes-item__details-item">
+                        <span>Goal: </span>
+                        <span>25 000$</span>
+                      </div>
+                      <div class="causes-item__details-item text-right">
+                        <span>Pledged:</span>
+                        <span>20 350$</span>
+                      </div>
                     </div>
                   </div>
-                  <div class="causes-item__details-holder">
-                    <div class="causes-item__details-item">
-                      <span>Goal: </span>
-                      <span>25 000$</span>
-                    </div>
-                    <div class="causes-item__details-item text-right">
-                      <span>Pledged:</span>
-                      <span>20 350$</span>
-                    </div>
-                  </div>
                 </div>
+                <a class="button causes-item__button button--primary" href="#">
+                  + Donate
+                </a>
               </div>
-              <a class="button causes-item__button button--primary" href="#">
-                + Donate
-              </a>
             </div>
-          </div>
 
-          <div class="causes-slider__item mx-2" style={{width: 379 }}>
-            <div class="causes-item causes-item--primary">
-              <div class="causes-item__body">
-                <div class="causes-item__top">
-                  <h6 class="causes-item__title" style={{fontSize:20, marginBottom:20}}>
-                    <a href="cause-details.html">We Build and Create</a>
-                  </h6>
-                  <p class="text-justify">
-                    Compassion survival focuses on promoting development and
-                    survival of the most vulnerable bables,While also providing
-                    educaton and support
-                  </p>
-                </div>
-                <div class="causes-item__img">
-                  <div
-                    class="causes-item__badge"
-                    style={{ backgroundColor: "#2EC774" }}
-                  >
-                    Education
+            <div class="causes-slider__item mx-2" style={{ width: 379 }}>
+              <div class="causes-item causes-item--primary">
+                <div class="causes-item__body">
+                  <div class="causes-item__top">
+                    <h6
+                      class="causes-item__title"
+                      style={{ fontSize: 20, marginBottom: 20 }}
+                    >
+                      <a href="cause-details.html">We Build and Create</a>
+                    </h6>
+                    <p>
+                      Compassion survival focuses on promoting development and
+                      survival of the most vulnerable bables,While also
+                      providing educaton and support
+                    </p>
                   </div>
-                  <img
-                    class="img--bg"
-                    src={require("../img/causes_3.jpg").default}
-                    alt="img"
-                  />
-                </div>
-                <div class="causes-item__lower">
-                  <div class="progress-bar">
-                    <div class="progress-bar__inner" style={{ width: "51%" }}>
-                      <div class="progress-bar__value">51%</div>
+                  <div class="causes-item__img">
+                    <div
+                      class="causes-item__badge"
+                      style={{ backgroundColor: "#2EC774" }}
+                    >
+                      Education
+                    </div>
+                    <img
+                      class="img--bg"
+                      src={require("../img/causes_3.jpg").default}
+                      alt="img"
+                    />
+                  </div>
+                  <div class="causes-item__lower">
+                    <div class="progress-bar">
+                      <div class="progress-bar__inner" style={{ width: "51%" }}>
+                        <div class="progress-bar__value">51%</div>
+                      </div>
+                    </div>
+                    <div class="causes-item__details-holder">
+                      <div class="causes-item__details-item">
+                        <span>Goal: </span>
+                        <span>150 000$</span>
+                      </div>
+                      <div class="causes-item__details-item text-right">
+                        <span>Pledged:</span>
+                        <span>76 500$</span>
+                      </div>
                     </div>
                   </div>
-                  <div class="causes-item__details-holder">
-                    <div class="causes-item__details-item">
-                      <span>Goal: </span>
-                      <span>150 000$</span>
-                    </div>
-                    <div class="causes-item__details-item text-right">
-                      <span>Pledged:</span>
-                      <span>76 500$</span>
-                    </div>
-                  </div>
                 </div>
+                <a class="button causes-item__button button--primary" href="#">
+                  + Donate
+                </a>
               </div>
-              <a class="button causes-item__button button--primary" href="#">
-                + Donate
-              </a>
             </div>
-          </div>
-          <div class="causes-slider__item" style={{width: 379 }}>
-            <div class="causes-item causes-item--primary">
-              <div class="causes-item__body">
-                <div class="causes-item__top">
-                  <h6 class="causes-item__title" style={{fontSize:20, marginBottom:20}}>
-                    <a href="cause-details.html">Child Sponsership</a>
-                  </h6>
-                  <p class="text-justify">
-                    In a world where hundreds of millions of children live in
-                    extreme poverty, connectig one child with one sponsor is the
-                    most strategic way to end--child poverty
-                  </p>
-                </div>
-                <div class="causes-item__img">
-                  <div
-                    class="causes-item__badge"
-                    style={{ backgroundColor: "#F8AC3A" }}
-                  >
-                    Food
+            <div class="causes-slider__item" style={{ width: 379 }}>
+              <div class="causes-item causes-item--primary">
+                <div class="causes-item__body">
+                  <div class="causes-item__top">
+                    <h6
+                      class="causes-item__title"
+                      style={{ fontSize: 20, marginBottom: 20 }}
+                    >
+                      <a href="cause-details.html">Child Sponsership</a>
+                    </h6>
+                    <p>
+                      In a world where hundreds of millions of children live in
+                      extreme poverty, connectig one child with one sponsor is
+                      the most strategic way to end--child poverty
+                    </p>
                   </div>
-                  <img
-                    class="img--bg"
-                    src={require("../img/causes_4.jpg").default}
-                    alt="img"
-                  />
-                </div>
-                <div class="causes-item__lower">
-                  <div class="progress-bar">
-                    <div class="progress-bar__inner" style={{ width: "50%" }}>
-                      <div class="progress-bar__value">50%</div>
+                  <div class="causes-item__img">
+                    <div
+                      class="causes-item__badge"
+                      style={{ backgroundColor: "#F8AC3A" }}
+                    >
+                      Food
+                    </div>
+                    <img
+                      class="img--bg"
+                      src={require("../img/causes_4.jpg").default}
+                      alt="img"
+                    />
+                  </div>
+                  <div class="causes-item__lower">
+                    <div class="progress-bar">
+                      <div class="progress-bar__inner" style={{ width: "50%" }}>
+                        <div class="progress-bar__value">50%</div>
+                      </div>
+                    </div>
+                    <div class="causes-item__details-holder">
+                      <div class="causes-item__details-item">
+                        <span>Goal: </span>
+                        <span>50 000$</span>
+                      </div>
+                      <div class="causes-item__details-item text-right">
+                        <span>Pledged:</span>
+                        <span>25 000$</span>
+                      </div>
                     </div>
                   </div>
-                  <div class="causes-item__details-holder">
-                    <div class="causes-item__details-item">
-                      <span>Goal: </span>
-                      <span>50 000$</span>
-                    </div>
-                    <div class="causes-item__details-item text-right">
-                      <span>Pledged:</span>
-                      <span>25 000$</span>
-                    </div>
-                  </div>
                 </div>
+                <a class="button causes-item__button button--primary" href="#">
+                  + Donate
+                </a>
               </div>
-              <a class="button causes-item__button button--primary" href="#">
-                + Donate
-              </a>
             </div>
           </div>
         </div>
       </div>
     </div>
-	</div>
   </section>
 );
 
@@ -346,7 +359,7 @@ const Projects = () => (
             <h2 class="heading__title">
               <span>Firoz kunnamparambil Foundation</span> <span>Projects</span>
             </h2>
-            <p class="no-margin-bottom text-justify" >
+            <p class="no-margin-bottom text-justify">
               This foundation aims to redeﬁne what is possible for children from
               low-income communities to achieve through its network of
               high-performing public-private partnership schools.
@@ -355,11 +368,15 @@ const Projects = () => (
         </div>
       </div>
     </div>
-    <div class="row no-gutters projects-masonry" style={{position: "relative",
-    height: 1800}}>
-      <div class="col-lg-6 col-xl-4 projects-masonry__item projects-masonry__item--height-1 projects-masonry__item--vertical slide-1" style={{position: "absolute",
-    left: "0%",
-    top: 0 }}>
+
+    <div
+      class="row no-gutters projects-masonry"
+      style={{ position: "relative", height: 1800 }}
+    >
+      <div
+        class="col-lg-6 col-xl-4 projects-masonry__item projects-masonry__item--height-1 projects-masonry__item--vertical"
+        style={{ position: "absolute", left: "0%", top: 0 }}
+      >
         <div class="projects-masonry__img">
           <img
             class="img--bg"
@@ -400,12 +417,14 @@ const Projects = () => (
           </div>
         </div>
       </div>
-      <div class="col-lg-6 col-xl-8 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--horizontal"style={{
-        position: "absolute",
-        left: "33.3326%",
-        top: 0
-    
-      }}>
+      <div
+        class="col-lg-6 col-xl-8 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--horizontal"
+        style={{
+          position: "absolute",
+          left: "33.3326%",
+          top: 0,
+        }}
+      >
         <div class="projects-masonry__img">
           <img
             class="img--bg"
@@ -448,10 +467,16 @@ const Projects = () => (
           </div>
         </div>
       </div>
-      <div class="col-lg-6 col-xl-8 projects-masonry__item projects-masonry__item--height-1 projects-masonry__item--primary" style={{position: "absolute",
-    
-    left: "33.3326%",
-    top: 450}}>
+
+      <div
+        class="col-lg-6 col-xl-8 projects-masonry__item projects-masonry__item--height-1 projects-masonry__item--primary"
+        style={{
+          position: "absolute",
+
+          left: "33.3326%",
+          top: 450,
+        }}
+      >
         <div class="projects-masonry__img">
           <img
             class="img--bg"
@@ -486,11 +511,15 @@ const Projects = () => (
           </div>
         </div>
       </div>
-      <div class="col-lg-6 col-xl-4 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--primary" style={{position:"absolute",
-  
-    left: "0%",
-    top: 900
-    }}>
+      <div
+        class="col-lg-6 col-xl-4 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--primary"
+        style={{
+          position: "absolute",
+
+          left: "0%",
+          top: 900,
+        }}
+      >
         <div class="projects-masonry__img">
           <img
             class="img--bg"
@@ -525,9 +554,10 @@ const Projects = () => (
           </div>
         </div>
       </div>
-      <div class="col-lg-6 col-xl-8 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--horizontal" style={{position: "absolute",
-    left: "0%",
-    top: 1350}}>
+      <div
+        class="col-lg-6 col-xl-8 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--horizontal"
+        style={{ position: "absolute", left: "0%", top: 1350 }}
+      >
         <div class="projects-masonry__img">
           <img
             class="img--bg"
@@ -567,9 +597,10 @@ const Projects = () => (
           </div>
         </div>
       </div>
-      <div class="col-lg-6 col-xl-4 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--primary" style={{position: "absolute",
-    left: "66.6653%",
-    top: 1350}}>
+      <div
+        class="col-lg-6 col-xl-4 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--primary"
+        style={{ position: "absolute", left: "66.6653%", top: 1350 }}
+      >
         <div class="projects-masonry__img">
           <img
             class="img--bg"
@@ -610,7 +641,6 @@ const Projects = () => (
   </section>
 );
 
-
 const Donors = () => (
   <section class="section donors p-5">
     <div class="container">
@@ -628,9 +658,12 @@ const Donors = () => (
         <div class="col-12">
           {/* <!-- donors slider start--> */}
           <div class="slider-holder">
-            <div class="donors-slider donors-slider--style-1" style={{display:"flex"}}>
+            <div
+              class="donors-slider donors-slider--style-1"
+              style={{ display: "flex" }}
+            >
               <div class="donors-slider__item">
-                <div class="donors-slider__img" style= {{width: 293 }}>
+                <div class="donors-slider__img" style={{ width: 293 }}>
                   <img
                     src={require("../img/donor_1.png").default}
                     alt="donor"
@@ -638,7 +671,7 @@ const Donors = () => (
                 </div>
               </div>
               <div class="donors-slider__item">
-                <div class="donors-slider__img px-2" style= {{width: 293 }}>
+                <div class="donors-slider__img px-2" style={{ width: 293 }}>
                   <img
                     src={require("../img/donor_2.png").default}
                     alt="donor"
@@ -646,7 +679,7 @@ const Donors = () => (
                 </div>
               </div>
               <div class="donors-slider__item">
-                <div class="donors-slider__img" style= {{width: 293 }}>
+                <div class="donors-slider__img" style={{ width: 293 }}>
                   <img
                     src={require("../img/donor_3.png").default}
                     alt="donor"
@@ -654,7 +687,7 @@ const Donors = () => (
                 </div>
               </div>
               <div class="donors-slider__item">
-                <div class="donors-slider__img " style= {{width: 293 }}>
+                <div class="donors-slider__img " style={{ width: 293 }}>
                   <img
                     src={require("../img/donor_4.png").default}
                     alt="donor"
@@ -1047,34 +1080,38 @@ const HomePage = () => {
             </div>
             <section className="row d-flex justify-content-around my-5">
               {applications.length
-                ? applications.map((apps, index) => (
-                    <div
-                      key={index}
-                      class="card border-0"
-                      style={{ width: "18rem" }}
-                    >
-                      <div className="d-flex justify-content-center my-5">
-                        <img
-                          src={apps.img}
-                          style={{ height: 80, width: 80 }}
-                          alt=""
-                        />
-                      </div>
-                      <div class="card-body">
-                        <h5 class="card-title text-center">{apps.titile}</h5>
-                        <p class="card-text text-center">{apps.description}</p>
+                ? applications.map((apps, index) => {
+                    return (
+                      <div
+                        key={index}
+                        class="card border-0"
+                        style={{ width: "18rem" }}
+                      >
                         <div className="d-flex justify-content-center my-5">
-                          <a
-                            href="#"
-                            class="btn btn-primary btn-small"
-                            style={{ fontSize: 13, minWidth: 130 }}
-                          >
-                            {apps.titile}
-                          </a>
+                          <img
+                            src={apps.img}
+                            style={{ height: 80, width: 80 }}
+                            alt=""
+                          />
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title text-center">{apps.titile}</h5>
+                          <p class="card-text text-center">
+                            {apps.description}
+                          </p>
+                          <div className="d-flex justify-content-center my-5">
+                            <a
+                              href={apps.link}
+                              class="btn btn-primary btn-small"
+                              style={{ fontSize: 13, minWidth: 130 }}
+                            >
+                              {apps.titile}
+                            </a>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  ))
+                    );
+                  })
                 : null}
             </section>
           </section>

@@ -21,9 +21,12 @@ const WrapperComponent = (props) => {
 
       <main className="mb-5">{props.children}</main>
 
-      <footer className="w-100" style={{ minHeight: 300 }}>
+      {/* <footer
+        className="w-100"
+        style={{ minHeight: 300, position: "relative" }}
+      >
         <FooterComponet />
-      </footer>
+      </footer> */}
     </div>
   );
 };
