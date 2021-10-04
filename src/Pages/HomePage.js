@@ -183,7 +183,7 @@ const HelpsCause = () => (
             class="causes-slider offset-margin bg"
             style={{ opacity: 1, width: 1227, display: "flex" }}
           >
-            <div class="causes-slider__item" style={{ width: 379 }}>
+            <div class="causes-slider__item" style={{ width: 306 }}>
               <div class="causes-item causes-item--primary">
                 <div class="causes-item__body">
                   <div class="causes-item__top">
@@ -191,14 +191,13 @@ const HelpsCause = () => (
                       class="causes-item__title"
                       style={{ fontSize: 20, marginBottom: 20 }}
                     >
-                      <a href="cause-details.html">
-                        Working Together for Resolution in Kerala
+                      <a>
+                      We build your dream home
                       </a>
                     </h6>
                     <p>
-                      We supports underprivileged women and children by
-                      providing holistic solutions to improve their quality of
-                      life .
+                      We provide financial aid and support for the construction of houses for the homeless.
+                       This aid is given to the poor and also those who have lost their homes in natural disasters.
                     </p>
                   </div>
                   <div class="causes-item__img">
@@ -206,15 +205,15 @@ const HelpsCause = () => (
                       class="causes-item__badge"
                       style={{ backgroundColor: "#49C2DF" }}
                     >
-                      Water Delivery
+                     Build Home
                     </div>
                     <img
                       class="img--bg"
-                      src={require("../img/causes_1.jpg").default}
+                      src={require("../img/home1.jpg").default}
                       alt="img"
                     />
                   </div>
-                  <div class="causes-item__lower">
+                  {/* <div class="causes-item__lower">
                     <div class="progress-bar">
                       <div class="progress-bar__inner" style={{ width: "78%" }}>
                         <div class="progress-bar__value">78%</div>
@@ -230,15 +229,15 @@ const HelpsCause = () => (
                         <span>20 350$</span>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
-                <a class="button causes-item__button button--primary" href="#">
+                {/* <a class="button causes-item__button button--primary" href="#">
                   + Donate
-                </a>
+                </a> */}
               </div>
             </div>
 
-            <div class="causes-slider__item mx-2" style={{ width: 379 }}>
+            <div class="causes-slider__item mx-2" style={{ width: 306 }}>
               <div class="causes-item causes-item--primary">
                 <div class="causes-item__body">
                   <div class="causes-item__top">
@@ -246,12 +245,11 @@ const HelpsCause = () => (
                       class="causes-item__title"
                       style={{ fontSize: 20, marginBottom: 20 }}
                     >
-                      <a href="cause-details.html">We Build and Create</a>
+                      <a>Marriage support </a>
                     </h6>
                     <p>
-                      Compassion survival focuses on promoting development and
-                      survival of the most vulnerable bables,While also
-                      providing educaton and support
+                    We believe that no girl should be treated as a burden just due to her marriage expense. 
+                    We aim to provide all the funds required for a wedding and help such families and brides. 
                     </p>
                   </div>
                   <div class="causes-item__img">
@@ -259,15 +257,15 @@ const HelpsCause = () => (
                       class="causes-item__badge"
                       style={{ backgroundColor: "#2EC774" }}
                     >
-                      Education
+                     For Marriage
                     </div>
                     <img
                       class="img--bg"
-                      src={require("../img/causes_3.jpg").default}
+                      src={require("../img/marriage.jpg").default}
                       alt="img"
                     />
                   </div>
-                  <div class="causes-item__lower">
+                  {/* <div class="causes-item__lower">
                     <div class="progress-bar">
                       <div class="progress-bar__inner" style={{ width: "51%" }}>
                         <div class="progress-bar__value">51%</div>
@@ -283,14 +281,14 @@ const HelpsCause = () => (
                         <span>76 500$</span>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
-                <a class="button causes-item__button button--primary" href="#">
+                {/* <a class="button causes-item__button button--primary" href="#">
                   + Donate
-                </a>
+                </a> */}
               </div>
             </div>
-            <div class="causes-slider__item" style={{ width: 379 }}>
+            <div class="causes-slider__item" style={{ width: 306 }}>
               <div class="causes-item causes-item--primary">
                 <div class="causes-item__body">
                   <div class="causes-item__top">
@@ -298,12 +296,11 @@ const HelpsCause = () => (
                       class="causes-item__title"
                       style={{ fontSize: 20, marginBottom: 20 }}
                     >
-                      <a href="cause-details.html">Child Sponsership</a>
+                      <a href="cause-details.html">Right to education</a>
                     </h6>
                     <p>
-                      In a world where hundreds of millions of children live in
-                      extreme poverty, connectig one child with one sponsor is
-                      the most strategic way to end--child poverty
+                   We provide children necessities like uniforms and books so they can attend school with confidence.
+                   Awarding annual,renewable scholarships to attend school,college.
                     </p>
                   </div>
                   <div class="causes-item__img">
@@ -311,15 +308,15 @@ const HelpsCause = () => (
                       class="causes-item__badge"
                       style={{ backgroundColor: "#F8AC3A" }}
                     >
-                      Food
+                      For Education
                     </div>
                     <img
                       class="img--bg"
-                      src={require("../img/causes_4.jpg").default}
+                      src={require("../img/education.jpg").default}
                       alt="img"
                     />
                   </div>
-                  <div class="causes-item__lower">
+                  {/* <div class="causes-item__lower">
                     <div class="progress-bar">
                       <div class="progress-bar__inner" style={{ width: "50%" }}>
                         <div class="progress-bar__value">50%</div>
@@ -335,11 +332,61 @@ const HelpsCause = () => (
                         <span>25 000$</span>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
-                <a class="button causes-item__button button--primary" href="#">
+                {/* <a class="button causes-item__button button--primary" href="#">
                   + Donate
-                </a>
+                </a> */}
+              </div>
+            </div>
+            <div class="causes-slider__item mx-2" style={{ width: 306 }}>
+              <div class="causes-item causes-item--primary">
+                <div class="causes-item__body">
+                  <div class="causes-item__top">
+                    <h6
+                      class="causes-item__title"
+                      style={{ fontSize: 20, marginBottom: 20 }}
+                    >
+                      <a>Health care support </a>
+                    </h6>
+                    <p>
+                   We works to protect and improve the health of mothers and their 
+                    children as well as implementing family planning solutions into local communities also  healthcare services to destitute elders.                </p>
+                  </div>
+                  <div class="causes-item__img">
+                    <div
+                      class="causes-item__badge"
+                      style={{ backgroundColor: "#2EC774" }}
+                    >
+                     For Treatment
+                    </div>
+                    <img
+                      class="img--bg"
+                      src={require("../img/treatment.jpg").default}
+                      alt="img"
+                    />
+                  </div>
+                  {/* <div class="causes-item__lower">
+                    <div class="progress-bar">
+                      <div class="progress-bar__inner" style={{ width: "51%" }}>
+                        <div class="progress-bar__value">51%</div>
+                      </div>
+                    </div>
+                    <div class="causes-item__details-holder">
+                      <div class="causes-item__details-item">
+                        <span>Goal: </span>
+                        <span>150 000$</span>
+                      </div>
+                      <div class="causes-item__details-item text-right">
+                        <span>Pledged:</span>
+                        <span>76 500$</span>
+                      </div>
+                    </div>
+                  </div> */}
+                </div>
+                {/* <a class="button causes-item__button button--primary" href="#">
+                  + Donate
+                </a> */}
               </div>
             </div>
           </div>
@@ -480,10 +527,10 @@ const Projects = () => (
         <div class="projects-masonry__img">
           <img
             class="img--bg"
-            src={require("../img/projects_3.jpg").default}
+            src={require("../img/firoz.jpg").default}
             alt="img"
           />
-          <div class="projects-masonry__inner">
+          {/* <div class="projects-masonry__inner">
             <span
               class="projects-masonry__badge"
               style={{ background: "#F8AC3A" }}
@@ -508,7 +555,7 @@ const Projects = () => (
                 <span>23 Jan'19</span>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div
@@ -523,7 +570,7 @@ const Projects = () => (
         <div class="projects-masonry__img">
           <img
             class="img--bg"
-            src={require("../img/projects_4.jpg").default}
+            src={require("../img/education1.jpg").default}
             alt="img"
           />
           <div class="projects-masonry__inner">
@@ -604,7 +651,7 @@ const Projects = () => (
         <div class="projects-masonry__img">
           <img
             class="img--bg"
-            src={require("../img/projects_6.jpg").default}
+            src={require("../img/medicine.jpg").default}
             alt="img"
           />
           <div class="projects-masonry__inner">
