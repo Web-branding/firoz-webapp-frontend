@@ -6,7 +6,7 @@ const FooterComponet = () => {
            <footer className="footer">
 				<div className="container">
 					<div className="row">
-						<div className="col-12 col-sm-6 col-lg-3 banner-item">
+						<div className="col-12 col-sm-6 col-lg-3 banner-item ">
 							<div className="footer-logo">
 							<img className="header-logo__img logo--light" src={Logo} alt="logo" />
 								</div>
@@ -19,12 +19,16 @@ const FooterComponet = () => {
 							</ul>
 							{/* <!-- footer socials end--> */}
 						</div>
-						<div className="col-12 col-sm-6 col-lg-3 banner-item">
+						<div className="col-12 col-sm-6 col-lg-3 banner-item ">
 							<h4 className="footer__title">Contacts</h4>
 							<div className="footer-contacts">
-								<p className="footer-contacts__address">Elliott Ave, Parkville VIC 3052, Melbourne Canada</p>
-								<p className="footer-contacts__phone">Phone: <a href="tel:+31859644725">+31 85 964 47 25</a></p>
-								<p className="footer-contacts__mail">Email: <a href="mailto:support@helpo.org">support@helpo.org</a></p>
+								<p className="footer-contacts__address">Kunnamparambil Alathur MBR Palakkad Palakkad KL</p>
+								<p className="footer-contacts__phone">Phone: <a href="tel:+91 99999 99999">+91 99999 99999</a></p>
+								<p className="footer-contacts__mail">Email: 
+
+
+								 <a href="mailto:support@legacypartners.in">support@legacypartners.in
+								</a></p>
 							</div>
 						</div>
 						<div className="col-12 col-sm-6 col-lg-3 banner-item">
@@ -43,7 +47,7 @@ const FooterComponet = () => {
 							</nav>
 							{/* <!-- footer nav end--> */}
 						</div>
-						<div className="col-12 col-sm-6 col-lg-3 banner-item">
+						<div className="col-12 col-sm-6 col-lg-3 banner-item ">
 							<h4 className="footer__title">Donate</h4>
 							<p>Help Us Change the Lives of Children in World</p><a className="button footer__button button--filled" href="#">Donate</a>
 						</div>

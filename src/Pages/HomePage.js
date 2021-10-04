@@ -155,7 +155,7 @@ const HelpsCause = () => (
         </div>
       </div>
       <div class="row align-items-end margin-bottom">
-        <div class="col-sm-6">
+        <div class="col-sm-6 text-xs-start">
           <a class="button button--primary" href="causes.html">
             More Causes
           </a>
@@ -181,9 +181,11 @@ const HelpsCause = () => (
         <div class="causes-holder__wrapper">
           <div
             class="causes-slider offset-margin bg"
-            style={{ opacity: 1, width: 1227, display: "flex" }}
+            // style={{ opacity: 1, width: 1227, display: "flex" }}
           >
-            <div class="causes-slider__item" style={{ width: 306 }}>
+          <div class="row ">
+          <div class="col-sm-6 col-lg-4 col-xl-3">
+            <div class="causes-slider__item" >
               <div class="causes-item causes-item--primary">
                 <div class="causes-item__body">
                   <div class="causes-item__top">
@@ -192,7 +194,7 @@ const HelpsCause = () => (
                       style={{ fontSize: 20, marginBottom: 20 }}
                     >
                       <a>
-                      We build your dream home
+                       Build your dream home
                       </a>
                     </h6>
                     <p>
@@ -236,8 +238,10 @@ const HelpsCause = () => (
                 </a> */}
               </div>
             </div>
-
-            <div class="causes-slider__item mx-2" style={{ width: 306 }}>
+          </div>
+          
+          <div class="col-sm-6 col-lg-4 col-xl-3">
+            <div class="causes-slider__item " >
               <div class="causes-item causes-item--primary">
                 <div class="causes-item__body">
                   <div class="causes-item__top">
@@ -249,7 +253,7 @@ const HelpsCause = () => (
                     </h6>
                     <p>
                     We believe that no girl should be treated as a burden just due to her marriage expense. 
-                    We aim to provide all the funds required for a wedding and help such families and brides. 
+                    We aim to provide all the funds required for  wedding and help such families. 
                     </p>
                   </div>
                   <div class="causes-item__img">
@@ -288,7 +292,10 @@ const HelpsCause = () => (
                 </a> */}
               </div>
             </div>
-            <div class="causes-slider__item" style={{ width: 306 }}>
+           </div>
+           
+           <div class="col-sm-6 col-lg-4 col-xl-3">
+            <div class="causes-slider__item"  >
               <div class="causes-item causes-item--primary">
                 <div class="causes-item__body">
                   <div class="causes-item__top">
@@ -300,7 +307,7 @@ const HelpsCause = () => (
                     </h6>
                     <p>
                    We provide children necessities like uniforms and books so they can attend school with confidence.
-                   Awarding annual,renewable scholarships to attend school,college.
+                   Awarding  scholarships to attend school.
                     </p>
                   </div>
                   <div class="causes-item__img">
@@ -339,10 +346,13 @@ const HelpsCause = () => (
                 </a> */}
               </div>
             </div>
-            <div class="causes-slider__item mx-2" style={{ width: 306 }}>
+            </div>
+           
+            <div class="col-sm-6 col-lg-4 col-xl-3">
+            <div class="causes-slider__item " >
               <div class="causes-item causes-item--primary">
                 <div class="causes-item__body">
-                  <div class="causes-item__top">
+                  <div class="causes-item__top ">
                     <h6
                       class="causes-item__title"
                       style={{ fontSize: 20, marginBottom: 20 }}
@@ -351,7 +361,7 @@ const HelpsCause = () => (
                     </h6>
                     <p>
                    We works to protect and improve the health of mothers and their 
-                    children as well as implementing family planning solutions into local communities also  healthcare services to destitute elders.                </p>
+                    children as well as implementing family planning solutions and also  healthcare services to destitute elders .                </p>
                   </div>
                   <div class="causes-item__img">
                     <div
@@ -390,6 +400,9 @@ const HelpsCause = () => (
               </div>
             </div>
           </div>
+          
+          </div>
+          </div>
         </div>
       </div>
     </div>
@@ -420,8 +433,9 @@ const Projects = () => (
       class="row   no-gutters projects-masonry"
       style={{ position: "relative", height: 1800 }}
     >
+   
       <div
-        class="col-lg-6 col-xl-4 projects-masonry__item projects-masonry__item--height-1 projects-masonry__item--vertical"
+        class="col-sm-12  col-lg-6 col-xl-4 projects-masonry__item projects-masonry__item--height-1 projects-masonry__item--vertical"
         style={{ position: "absolute", left: "0%", top: 0 }}
       >
         <div class="projects-masonry__img">
@@ -464,8 +478,9 @@ const Projects = () => (
           </div>
         </div>
       </div>
+     
       <div
-        class="col-lg-6 col-xl-8 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--horizontal"
+        class=" col-sm-12 col-lg-6 col-xl-8 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--horizontal"
         style={{
           position: "absolute",
           left: "33.3326%",
@@ -516,7 +531,7 @@ const Projects = () => (
       </div>
 
       <div
-        class="col-lg-6 col-xl-8 projects-masonry__item projects-masonry__item--height-1 projects-masonry__item--primary"
+        class="col-sm-12 col-lg-6 col-xl-8 projects-masonry__item projects-masonry__item--height-1 projects-masonry__item--primary"
         style={{
           position: "absolute",
 
@@ -558,8 +573,9 @@ const Projects = () => (
           </div> */}
         </div>
       </div>
+     
       <div
-        class="col-lg-6 col-xl-4 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--primary"
+        class="col-sm-12 col-lg-6 col-xl-4 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--primary"
         style={{
           position: "absolute",
 
@@ -601,8 +617,9 @@ const Projects = () => (
           </div>
         </div>
       </div>
+     
       <div
-        class="col-lg-6 col-xl-8 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--horizontal"
+        class="col-sm-12 col-lg-6 col-xl-8 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--horizontal"
         style={{ position: "absolute", left: "0%", top: 1350 }}
       >
         <div class="projects-masonry__img">
@@ -644,8 +661,9 @@ const Projects = () => (
           </div>
         </div>
       </div>
+     
       <div
-        class="col-lg-6 col-xl-4 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--primary"
+        class="col-sm-12 col-lg-6 col-xl-4 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--primary"
         style={{ position: "absolute", left: "66.6653%", top: 1350 }}
       >
         <div class="projects-masonry__img">
@@ -684,6 +702,7 @@ const Projects = () => (
           </div>
         </div>
       </div>
+    
     </div>
   </section>
 );
