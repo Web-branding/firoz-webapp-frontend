@@ -6,13 +6,17 @@ import HomePage from "./Pages/HomePage";
 import AboutUsPage from "./Pages/AboutUsPage";
 import ContactUsPage from "./Pages/ContactUsPage";
 
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-
-const Home = () => {
-  return <div>00002</div>;
-};
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useLocation,
+} from "react-router-dom";
 
 const WrapperComponent = (props) => {
+  const location = useLocation();
+  console.log("location", location);
   return (
     <div className="">
       <header className="w-100" style={{ minHeight: 10 }}>
@@ -21,12 +25,14 @@ const WrapperComponent = (props) => {
 
       <main className="mb-5">{props.children}</main>
 
-      {/* <footer
-        className="w-100"
-        style={{ minHeight: 300, position: "relative" }}
-      >
-        <FooterComponet />
-      </footer> */}
+      {location.pathname !== "/search" && (
+        <footer
+          className="w-100"
+          style={{ minHeight: 300, position: "relative" }}
+        >
+          <FooterComponet />
+        </footer>
+      )}
     </div>
   );
 };
@@ -36,10 +42,6 @@ function App() {
     <div className="Container-fluid">
       <Router>
         <WrapperComponent>
-          {/* <HomePage/> */}
-          {/* <ApplicationListPage /> */}
-          {/* <ApplicationSearchPage /> */}
-
           <Switch>
             <Route exact path="/">
               <HomePage />
@@ -63,17 +65,6 @@ function App() {
           </Switch>
         </WrapperComponent>
       </Router>
-
-      {/* 
-      ProjectContainer will contain header and footer
-    */}
-      {/* Basic Structure */}
-      {/* <ProjectContainer>
-        <HomePage />
-        <Page2 />
-        <Page3 />
-        <Page4 />
-      </ProjectContainer> */}
     </div>
   );
 }

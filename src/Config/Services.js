@@ -1,3 +1,3 @@
-const BaseUrl = "http://firoz.thewebbranding.com";
+const BaseUrl = "https://firoz.thewebbranding.com";
 
 export { BaseUrl };
