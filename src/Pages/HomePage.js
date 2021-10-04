@@ -408,7 +408,7 @@ const Projects = () => (
             </h2>
             <p class="no-margin-bottom text-justify">
               This foundation aims to redeﬁne what is possible for children from
-              low-income communities to achieve through its network of
+              low-income communities to achieve through its network of the
               high-performing public-private partnership schools.
             </p>
           </div>
@@ -417,7 +417,7 @@ const Projects = () => (
     </div>
 
     <div
-      class="row no-gutters projects-masonry"
+      class="row   no-gutters projects-masonry"
       style={{ position: "relative", height: 1800 }}
     >
       <div
