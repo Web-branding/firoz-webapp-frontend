@@ -155,12 +155,12 @@ const HelpsCause = () => (
         </div>
       </div>
       <div class="row align-items-end margin-bottom">
-        <div class="col-sm-6 text-xs-start">
+        <div class="col-sm-6 text-sm-center">
           <a class="button button--primary" href="causes.html">
             More Causes
           </a>
         </div>
-        <div class="col-sm-6 d-flex justify-content-sm-end">
+        <div class="col-sm-6 d-flex justify-content-sm-center">
           {/* <!-- slider nav start--> */}
           <div class="slider__nav causes-slider__nav">
             <div class="slider__arrows">
