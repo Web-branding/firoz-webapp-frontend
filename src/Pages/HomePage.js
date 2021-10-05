@@ -188,7 +188,7 @@ const HelpsCause = () => (
               <div class="col-sm-6 col-lg-4 col-xl-3">
                 <div class="causes-slider__item">
                   <div class="causes-item causes-item--primary">
-                    <div class="causes-item__body">
+                    <div class="causes-item__body shadow rounded">
                       <div class="causes-item__top">
                         <h6
                           class="causes-item__title"

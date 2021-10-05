@@ -116,3 +116,8 @@ footer.footer {
 .fs-sm {
   font-size: small;
 }
+
+.causes-item--primary .causes-item__body {
+  border: 0px solid #dddddd !important;
+  border-radius: 15px !important;
+}
