@@ -5,6 +5,7 @@ import ApplicationSearchPage from "./Pages/ApplicationSearchPage";
 import HomePage from "./Pages/HomePage";
 import AboutUsPage from "./Pages/AboutUsPage";
 import ContactUsPage from "./Pages/ContactUsPage";
+import VideoDocListPage from "./Pages/VideoDocListPage";
 
 import {
   BrowserRouter as Router,
@@ -25,7 +26,7 @@ const WrapperComponent = (props) => {
 
       <main className="mb-5">{props.children}</main>
 
-      {location.pathname !== "/search" && (
+      {location.pathname !== "/search" && location.pathname !== "/donations" && (
         <footer
           className="w-100"
           style={{ minHeight: 300, position: "relative" }}
@@ -49,6 +50,10 @@ function App() {
 
             <Route path="/request">
               <ApplicationListPage />
+            </Route>
+
+            <Route path="/donations">
+              <VideoDocListPage />
             </Route>
 
             <Route path="/search">
