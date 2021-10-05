@@ -143,11 +143,11 @@ const HelpsCause = () => (
             <div class="col-6">
               <div class="counter-item counter-item--style-3">
                 <div class="counter-item__top">
-                  <h6 class="counter-item__title">Dollars We Collected</h6>
+                  <h6 class="counter-item__title">Funds We Collected</h6>
                 </div>
                 <div class="counter-item__lower">
-                  <span class="js-counter">65</span>
-                  <span>bil</span>
+                  <span class="js-counter">650</span>
+                  <span>k</span>
                 </div>
               </div>
             </div>
@@ -155,7 +155,7 @@ const HelpsCause = () => (
         </div>
       </div>
       <div class="row align-items-end margin-bottom">
-        <div class="col-sm-6 text-sm-center">
+        <div class="col-sm-6 text-sm-center ">
           <a class="button button--primary" href="causes.html">
             More Causes
           </a>
@@ -361,7 +361,7 @@ const HelpsCause = () => (
                     </h6>
                     <p>
                    We works to protect and improve the health of mothers and their 
-                    children as well as implementing family planning solutions and also  healthcare services to destitute elders .                </p>
+                    children as well as implementing family planning solutions and   healthcare services to  elders .                </p>
                   </div>
                   <div class="causes-item__img">
                     <div
@@ -441,7 +441,7 @@ const Projects = () => (
         <div class="projects-masonry__img">
           <img
             class="img--bg"
-            src={require("../img/projects_1.jpg").default}
+            src={require("../img/child.jpg").default}
             alt="img"
           />
         </div>
@@ -465,7 +465,7 @@ const Projects = () => (
               downtrodden people of Karnataka and other part of the country,
               with this headquarters in Bangalore for over 14 years
             </p>
-            <div class="projects-masonry__details-holder">
+            {/* <div class="projects-masonry__details-holder">
               <div class="projects-masonry__details-item">
                 <span>Goal: </span>
                 <span>25 000$</span>
@@ -474,7 +474,7 @@ const Projects = () => (
                 <span>Date: </span>
                 <span>23 Jan'19</span>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -490,7 +490,7 @@ const Projects = () => (
         <div class="projects-masonry__img">
           <img
             class="img--bg"
-            src={require("../img/projects_2.jpg").default}
+            src={require("../img/save.jpg").default}
             alt="img"
           />
         </div>
@@ -516,7 +516,7 @@ const Projects = () => (
               down-trodden, particularly women and children, who are totally
               neglected by the society
             </p>
-            <div class="projects-masonry__details-holder">
+            {/* <div class="projects-masonry__details-holder">
               <div class="projects-masonry__details-item">
                 <span>Goal: </span>
                 <span>25 000$</span>
@@ -525,7 +525,7 @@ const Projects = () => (
                 <span>Date: </span>
                 <span>23 Jan'19</span>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -604,7 +604,7 @@ const Projects = () => (
               community and towards their education, empowerment of women,
               health and hygiene{" "}
             </p>
-            <div class="projects-masonry__details-holder">
+            {/* <div class="projects-masonry__details-holder">
               <div class="projects-masonry__details-item">
                 <span>Goal: </span>
                 <span>25 000$</span>
@@ -613,7 +613,7 @@ const Projects = () => (
                 <span>Date: </span>
                 <span>23 Jan'19</span>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -625,7 +625,7 @@ const Projects = () => (
         <div class="projects-masonry__img">
           <img
             class="img--bg"
-            src={require("../img/projects_5.jpg").default}
+            src={require("../img/give.jpg").default}
             alt="img"
           />
         </div>
@@ -648,7 +648,7 @@ const Projects = () => (
               community and towards their education, empowerment of women,
               health and hygiene
             </p>
-            <div class="projects-masonry__details-holder">
+            {/* <div class="projects-masonry__details-holder">
               <div class="projects-masonry__details-item">
                 <span>Goal: </span>
                 <span>25 000$</span>
@@ -657,7 +657,7 @@ const Projects = () => (
                 <span>Date: </span>
                 <span>23 Jan'19</span>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
