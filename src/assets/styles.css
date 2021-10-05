@@ -1,44 +1,7 @@
 .header-logo__link img {
-    height: 100px;
-    }
-    @media only screen and (max-width: 992px){
-.header-logo__img {
-    max-height: 110px!important;
-}
-    }
-    @media only screen and (min-width: 1367px) {
-        .header-logo__img {
-            max-height: 110px;
-        }
-    }
-    .form-label{
-        color: #5a5855; 
-        font-size: small;
-
-    }
-    @media only screen and (max-width: 767px) {
-        .banner-item .footer__title{
-            text-align: center !important;
-        }
-        .banner-item .footer-contacts{
-            text-align: center !important;
-        }
-        .banner-item .footer-menu{
-            text-align: center !important;
-        }
-        .banner-item .footer-logo{
-            text-align: center !important;
-        }
-        .banner-item .banner-item .footer-socials ul li{
-            text-align: center !important;
-        }
-        /* .align-center-samll{
-            text-align: center !important;
-        } */
-    }
   height: 100px;
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 992px) {
   .header-logo__img {
     max-height: 110px !important;
   }
@@ -56,6 +19,21 @@
   .banner-item .footer__title {
     text-align: center !important;
   }
+  .banner-item .footer-contacts {
+    text-align: center !important;
+  }
+  .banner-item .footer-menu {
+    text-align: center !important;
+  }
+  .banner-item .footer-logo {
+    text-align: center !important;
+  }
+  .banner-item .banner-item .footer-socials ul li {
+    text-align: center !important;
+  }
+  /* .align-center-samll{
+          text-align: center !important;
+      } */
 }
 
 .bg {
@@ -107,6 +85,25 @@ footer.footer {
   right: 0;
 }
 
+.projects-masonry__item--horizontal .projects-masonry__text {
+  height: 100%;
+  width: 50% !important;
+}
+.projects-masonry__item--horizontal .projects-masonry__img {
+  height: 100%;
+  width: 50%;
+  display: block !important;
+}
+.projects-masonry__item--vertical .projects-masonry__img {
+  height: 50%;
+  width: 100%;
+  display: block !important;
+}
+.projects-masonry__item--vertical .projects-masonry__text {
+  height: 50% !important;
+  width: 100%;
+}
+
 .donation-list-container {
   width: 300px !important;
   margin: 0 20px;
@@ -116,24 +113,6 @@ footer.footer {
   min-width: 200px;
 }
 
-    .projects-masonry__item--horizontal .projects-masonry__text {
-        height: 100%;
-        width: 50% !important;
-    }
-    .projects-masonry__item--horizontal .projects-masonry__img {
-        height: 100%;
-        width: 50%;
-        display: block !important;
-    }
-    .projects-masonry__item--vertical .projects-masonry__img {
-        height: 50%;
-        width: 100%;
-        display: block !important;
-    }
-    .projects-masonry__item--vertical .projects-masonry__text {
-        height: 50% !important;
-        width: 100%;
-    }
 .fs-sm {
   font-size: small;
 }
