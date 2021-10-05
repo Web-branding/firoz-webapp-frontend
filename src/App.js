@@ -24,7 +24,9 @@ const WrapperComponent = (props) => {
         <HeaderComponnet />
       </header>
 
-      <main className="mb-5">{props.children}</main>
+      <main className="mb-5" style={{ marginTop: "4.6em" }}>
+        {props.children}
+      </main>
 
       {location.pathname !== "/search" && location.pathname !== "/donations" && (
         <footer

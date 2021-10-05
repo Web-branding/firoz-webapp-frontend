@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import slide from "../img/promo_1.jpg";
 import ImageSlider from "../Components/ImageSlider";
+import { Link } from "react-router-dom";
 
 const AboutUs = () => {
   //   const[state, setState]=useState([[]])
@@ -183,39 +184,39 @@ const HelpsCause = () => (
             class="causes-slider offset-margin bg"
             // style={{ opacity: 1, width: 1227, display: "flex" }}
           >
-          <div class="row ">
-          <div class="col-sm-6 col-lg-4 col-xl-3">
-            <div class="causes-slider__item" >
-              <div class="causes-item causes-item--primary">
-                <div class="causes-item__body">
-                  <div class="causes-item__top">
-                    <h6
-                      class="causes-item__title"
-                      style={{ fontSize: 20, marginBottom: 20 }}
-                    >
-                      <a>
-                       Build your dream home
-                      </a>
-                    </h6>
-                    <p>
-                      We provide financial aid and support for the construction of houses for the homeless.
-                       This aid is given to the poor and also those who have lost their homes in natural disasters.
-                    </p>
-                  </div>
-                  <div class="causes-item__img">
-                    <div
-                      class="causes-item__badge"
-                      style={{ backgroundColor: "#49C2DF" }}
-                    >
-                     Build Home
-                    </div>
-                    <img
-                      class="img--bg"
-                      src={require("../img/home1.jpg").default}
-                      alt="img"
-                    />
-                  </div>
-                  {/* <div class="causes-item__lower">
+            <div class="row ">
+              <div class="col-sm-6 col-lg-4 col-xl-3">
+                <div class="causes-slider__item">
+                  <div class="causes-item causes-item--primary">
+                    <div class="causes-item__body">
+                      <div class="causes-item__top">
+                        <h6
+                          class="causes-item__title"
+                          style={{ fontSize: 20, marginBottom: 20 }}
+                        >
+                          <a>Build your dream home</a>
+                        </h6>
+                        <p>
+                          We provide financial aid and support for the
+                          construction of houses for the homeless. This aid is
+                          given to the poor and also those who have lost their
+                          homes in natural disasters.
+                        </p>
+                      </div>
+                      <div class="causes-item__img">
+                        <div
+                          class="causes-item__badge"
+                          style={{ backgroundColor: "#49C2DF" }}
+                        >
+                          Build Home
+                        </div>
+                        <img
+                          class="img--bg"
+                          src={require("../img/home1.jpg").default}
+                          alt="img"
+                        />
+                      </div>
+                      {/* <div class="causes-item__lower">
                     <div class="progress-bar">
                       <div class="progress-bar__inner" style={{ width: "78%" }}>
                         <div class="progress-bar__value">78%</div>
@@ -232,44 +233,46 @@ const HelpsCause = () => (
                       </div>
                     </div>
                   </div> */}
-                </div>
-                {/* <a class="button causes-item__button button--primary" href="#">
+                    </div>
+                    {/* <a class="button causes-item__button button--primary" href="#">
                   + Donate
                 </a> */}
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          
-          <div class="col-sm-6 col-lg-4 col-xl-3">
-            <div class="causes-slider__item " >
-              <div class="causes-item causes-item--primary">
-                <div class="causes-item__body">
-                  <div class="causes-item__top">
-                    <h6
-                      class="causes-item__title"
-                      style={{ fontSize: 20, marginBottom: 20 }}
-                    >
-                      <a>Marriage support </a>
-                    </h6>
-                    <p>
-                    We believe that no girl should be treated as a burden just due to her marriage expense. 
-                    We aim to provide all the funds required for  wedding and help such families. 
-                    </p>
-                  </div>
-                  <div class="causes-item__img">
-                    <div
-                      class="causes-item__badge"
-                      style={{ backgroundColor: "#2EC774" }}
-                    >
-                     For Marriage
-                    </div>
-                    <img
-                      class="img--bg"
-                      src={require("../img/marriage.jpg").default}
-                      alt="img"
-                    />
-                  </div>
-                  {/* <div class="causes-item__lower">
+
+              <div class="col-sm-6 col-lg-4 col-xl-3">
+                <div class="causes-slider__item ">
+                  <div class="causes-item causes-item--primary">
+                    <div class="causes-item__body">
+                      <div class="causes-item__top">
+                        <h6
+                          class="causes-item__title"
+                          style={{ fontSize: 20, marginBottom: 20 }}
+                        >
+                          <a>Marriage support </a>
+                        </h6>
+                        <p>
+                          We believe that no girl should be treated as a burden
+                          just due to her marriage expense. We aim to provide
+                          all the funds required for wedding and help such
+                          families.
+                        </p>
+                      </div>
+                      <div class="causes-item__img">
+                        <div
+                          class="causes-item__badge"
+                          style={{ backgroundColor: "#2EC774" }}
+                        >
+                          For Marriage
+                        </div>
+                        <img
+                          class="img--bg"
+                          src={require("../img/marriage.jpg").default}
+                          alt="img"
+                        />
+                      </div>
+                      {/* <div class="causes-item__lower">
                     <div class="progress-bar">
                       <div class="progress-bar__inner" style={{ width: "51%" }}>
                         <div class="progress-bar__value">51%</div>
@@ -286,44 +289,45 @@ const HelpsCause = () => (
                       </div>
                     </div>
                   </div> */}
-                </div>
-                {/* <a class="button causes-item__button button--primary" href="#">
+                    </div>
+                    {/* <a class="button causes-item__button button--primary" href="#">
                   + Donate
                 </a> */}
+                  </div>
+                </div>
               </div>
-            </div>
-           </div>
-           
-           <div class="col-sm-6 col-lg-4 col-xl-3">
-            <div class="causes-slider__item"  >
-              <div class="causes-item causes-item--primary">
-                <div class="causes-item__body">
-                  <div class="causes-item__top">
-                    <h6
-                      class="causes-item__title"
-                      style={{ fontSize: 20, marginBottom: 20 }}
-                    >
-                      <a href="cause-details.html">Right to education</a>
-                    </h6>
-                    <p>
-                   We provide children necessities like uniforms and books so they can attend school with confidence.
-                   Awarding  scholarships to attend school.
-                    </p>
-                  </div>
-                  <div class="causes-item__img">
-                    <div
-                      class="causes-item__badge"
-                      style={{ backgroundColor: "#F8AC3A" }}
-                    >
-                      For Education
-                    </div>
-                    <img
-                      class="img--bg"
-                      src={require("../img/education.jpg").default}
-                      alt="img"
-                    />
-                  </div>
-                  {/* <div class="causes-item__lower">
+
+              <div class="col-sm-6 col-lg-4 col-xl-3">
+                <div class="causes-slider__item">
+                  <div class="causes-item causes-item--primary">
+                    <div class="causes-item__body">
+                      <div class="causes-item__top">
+                        <h6
+                          class="causes-item__title"
+                          style={{ fontSize: 20, marginBottom: 20 }}
+                        >
+                          <a href="cause-details.html">Right to education</a>
+                        </h6>
+                        <p>
+                          We provide children necessities like uniforms and
+                          books so they can attend school with confidence.
+                          Awarding scholarships to attend school.
+                        </p>
+                      </div>
+                      <div class="causes-item__img">
+                        <div
+                          class="causes-item__badge"
+                          style={{ backgroundColor: "#F8AC3A" }}
+                        >
+                          For Education
+                        </div>
+                        <img
+                          class="img--bg"
+                          src={require("../img/education.jpg").default}
+                          alt="img"
+                        />
+                      </div>
+                      {/* <div class="causes-item__lower">
                     <div class="progress-bar">
                       <div class="progress-bar__inner" style={{ width: "50%" }}>
                         <div class="progress-bar__value">50%</div>
@@ -340,43 +344,45 @@ const HelpsCause = () => (
                       </div>
                     </div>
                   </div> */}
-                </div>
-                {/* <a class="button causes-item__button button--primary" href="#">
+                    </div>
+                    {/* <a class="button causes-item__button button--primary" href="#">
                   + Donate
                 </a> */}
+                  </div>
+                </div>
               </div>
-            </div>
-            </div>
-           
-            <div class="col-sm-6 col-lg-4 col-xl-3">
-            <div class="causes-slider__item " >
-              <div class="causes-item causes-item--primary">
-                <div class="causes-item__body">
-                  <div class="causes-item__top ">
-                    <h6
-                      class="causes-item__title"
-                      style={{ fontSize: 20, marginBottom: 20 }}
-                    >
-                      <a>Health care support </a>
-                    </h6>
-                    <p>
-                   We works to protect and improve the health of mothers and their 
-                    children as well as implementing family planning solutions and   healthcare services to  elders .                </p>
-                  </div>
-                  <div class="causes-item__img">
-                    <div
-                      class="causes-item__badge"
-                      style={{ backgroundColor: "#2EC774" }}
-                    >
-                     For Treatment
-                    </div>
-                    <img
-                      class="img--bg"
-                      src={require("../img/treatment.jpg").default}
-                      alt="img"
-                    />
-                  </div>
-                  {/* <div class="causes-item__lower">
+
+              <div class="col-sm-6 col-lg-4 col-xl-3">
+                <div class="causes-slider__item ">
+                  <div class="causes-item causes-item--primary">
+                    <div class="causes-item__body">
+                      <div class="causes-item__top ">
+                        <h6
+                          class="causes-item__title"
+                          style={{ fontSize: 20, marginBottom: 20 }}
+                        >
+                          <a>Health care support </a>
+                        </h6>
+                        <p>
+                          We works to protect and improve the health of mothers
+                          and their children as well as implementing family
+                          planning solutions and healthcare services to elders .{" "}
+                        </p>
+                      </div>
+                      <div class="causes-item__img">
+                        <div
+                          class="causes-item__badge"
+                          style={{ backgroundColor: "#2EC774" }}
+                        >
+                          For Treatment
+                        </div>
+                        <img
+                          class="img--bg"
+                          src={require("../img/treatment.jpg").default}
+                          alt="img"
+                        />
+                      </div>
+                      {/* <div class="causes-item__lower">
                     <div class="progress-bar">
                       <div class="progress-bar__inner" style={{ width: "51%" }}>
                         <div class="progress-bar__value">51%</div>
@@ -393,15 +399,14 @@ const HelpsCause = () => (
                       </div>
                     </div>
                   </div> */}
-                </div>
-                {/* <a class="button causes-item__button button--primary" href="#">
+                    </div>
+                    {/* <a class="button causes-item__button button--primary" href="#">
                   + Donate
                 </a> */}
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          
-          </div>
           </div>
         </div>
       </div>
@@ -433,7 +438,6 @@ const Projects = () => (
       class="row   no-gutters projects-masonry"
       style={{ position: "relative", height: 1800 }}
     >
-   
       <div
         class="col-sm-12  col-lg-6 col-xl-4 projects-masonry__item projects-masonry__item--height-1 projects-masonry__item--vertical"
         style={{ position: "absolute", left: "0%", top: 0 }}
@@ -478,7 +482,7 @@ const Projects = () => (
           </div>
         </div>
       </div>
-     
+
       <div
         class=" col-sm-12 col-lg-6 col-xl-8 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--horizontal"
         style={{
@@ -573,7 +577,7 @@ const Projects = () => (
           </div> */}
         </div>
       </div>
-     
+
       <div
         class="col-sm-12 col-lg-6 col-xl-4 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--primary"
         style={{
@@ -617,7 +621,7 @@ const Projects = () => (
           </div>
         </div>
       </div>
-     
+
       <div
         class="col-sm-12 col-lg-6 col-xl-8 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--horizontal"
         style={{ position: "absolute", left: "0%", top: 1350 }}
@@ -661,7 +665,7 @@ const Projects = () => (
           </div>
         </div>
       </div>
-     
+
       <div
         class="col-sm-12 col-lg-6 col-xl-4 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--primary"
         style={{ position: "absolute", left: "66.6653%", top: 1350 }}
@@ -702,7 +706,6 @@ const Projects = () => (
           </div>
         </div>
       </div>
-    
     </div>
   </section>
 );
@@ -809,7 +812,7 @@ const HomePage = () => {
     {
       titile: "Our Donations",
       desciption: "",
-      link: "",
+      link: "/donations",
       img: require("../img/siteIcons/resume.png").default,
     },
   ]);
@@ -1166,13 +1169,13 @@ const HomePage = () => {
                             {apps.description}
                           </p>
                           <div className="d-flex justify-content-center my-5">
-                            <a
-                              href={apps.link}
+                            <Link
+                              to={apps.link}
                               class="btn btn-primary btn-small"
                               style={{ fontSize: 13, minWidth: 130 }}
                             >
                               {apps.titile}
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
